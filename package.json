@@ -1,6 +1,6 @@
 {
   "name": "string-concluding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract part of string including last occurrence of substring",
   "main": "./src/index.js",
   "eslintConfig": {

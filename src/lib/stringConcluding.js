@@ -1,5 +1,11 @@
 function stringConcluding (str, stop) {
-  return str.slice(0, str.lastIndexOf(stop) + stop.length)
+  const position = str.lastIndexOf(stop)
+  if (position !== -1) {
+    return str.slice(0, position + stop.length)
+  }
+  else {
+    return -1
+  }
 }
 
 module.exports = stringConcluding
