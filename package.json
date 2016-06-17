@@ -1,0 +1,23 @@
+{
+  "name": "string-concluding",
+  "version": "1.0.0",
+  "description": "Extract part of string including last occurrence of substring",
+  "main": "./src/index.js",
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string",
+    "substring"
+  ],
+  "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
+  "license": "MIT"
+}
